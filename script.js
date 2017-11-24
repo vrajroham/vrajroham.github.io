@@ -1,3 +1,6 @@
+var host = "vrajroham.me";
+if ((host == window.location.host) && (window.location.protocol != "https:"))
+    window.location.protocol = "https";
 console.log(`                          d8b                 888                             
                           Y8P                 888                             
                                               888                             
